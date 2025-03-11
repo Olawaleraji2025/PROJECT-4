@@ -1,0 +1,955 @@
+@import url(https://db.onlinewebfonts.com/c/3b1a9a7b05c1e411253797b2fa3d1e91?family=Raleway+Bold); 
+
+@import url(https://db.onlinewebfonts.com/c/8b452e2cb91e248f5beff9174a1327dc?family=Raleway-Thin); 
+
+@import url(https://db.onlinewebfonts.com/c/1a2e8fcc158456e8b4d67c3dac07dad8?family=Poppins+ExtraLight);
+
+@import url(https://db.onlinewebfonts.com/c/07ecc0aa9ce268962dea7356eeff50a6?family=Poppins+Bold); 
+
+
+
+:root {
+  --pry-color: #007b47;
+  --sec-color: #f8dc58;
+}
+
+
+body{
+  padding: 0;
+  margin: 0;
+ 
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.header-container{
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1001;
+}
+
+
+.menu{
+  display: none;
+}
+
+.header-img{
+  width: 100px;
+  max-width: 100px;
+  height: auto;
+}
+
+.header-img img{
+  width: 100px;
+  max-width: 100px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.search-bar{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+.search-bar img{
+  margin-right: 10px;
+  
+}
+
+input[type="text"]{
+  width: 150px;
+  height: 30px;
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid #949191;
+outline: none;
+}
+
+.nav-bar img{
+  width: 50px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.nav-bar ul{
+  padding: 0;
+  margin: 0;
+   display: flex;
+  
+}
+
+.nav-bar li{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+ 
+}
+
+.nav-bar a{
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8rem;
+  font-family: "Raleway Bold";
+}
+
+.nav-bar a:hover{
+  color: var(--pry-color);
+}
+
+.Ctn2{
+  display: flex;
+  justify-content: space-between;
+  background-image: url('https://flourmills.s3.eu-central-1.amazonaws.com/home_bg_1_23c27e3f50.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: #fff;
+  background-position: 20% 60%;
+}
+
+
+.Ctn2a{
+  display: block;
+  margin: auto 100px;
+  
+}
+
+.Ctn2a h2{
+  font-size: 2.8rem;
+  font-family: "Poppins Bold";
+  margin-bottom: 0;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+.Ctn2a h6{
+  font-size: 1rem;
+
+margin-top: 15px;
+
+font-family: "Raleway";
+
+}
+
+.Ctn2a img{
+  width: 40px;
+  height: auto;
+ position: relative;
+ top: 8px;
+}
+
+
+.Ctn2 button{
+  padding: 3px 12px 10px 10px;
+  background-color:var(--pry-color);
+  color: #fff;
+  outline: none;
+  border: none;
+  font-family: "Raleway";
+}
+
+.line{
+  width: 100px;
+  height: 3px;
+  background-color: white;
+margin: 10px 30px;
+  transform: rotate(180deg);
+}
+
+.Ctn2b{
+  display: flex;
+  transform: rotate(-90deg);
+  
+ margin-top: 300px;
+
+ height: 50px;
+}
+
+.Ctn2b span{
+  font-size: 0.9rem;
+}
+
+
+.Ctn2b i{
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 8px;
+  font-size: 0.8rem;
+}
+
+.Ctn3{
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+
+}
+
+.Ctn3 div{
+  width: 250px;
+  max-width: 250px;
+  margin:0 10px;
+  background-color: #949191;
+
+}
+
+.Ctn3 div:hover{
+  background-color: var(--pry-color);
+}
+
+.Ctn3 img{
+  width: 250px;
+  max-width: 250px;
+  height: auto;
+}
+
+
+.Ctn3 p{
+  
+  color: #fff;
+  text-align: center;
+}
+
+.cont-4{
+  background-image: url('https://flourmills.s3.eu-central-1.amazonaws.com/images/news-bg.jpg');
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 140px;
+}
+
+.cont-4 h4{
+  font-size: 0.9rem;
+  
+  margin: 20px 0 0 20px;
+}
+
+.Ctn4{
+  display: flex;
+justify-content: flex-start;
+}
+
+.Ctn4a h3{
+  /* font-family: "Poppins ExtraLight"; */
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.Ctn4b h3{
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  /* font-family: "Poppins ExtraLight"; */
+}
+
+.Ctn4a h5{
+  font-size: 1rem;
+  margin-top: 15px;
+
+
+}
+
+.Ctn4b h5{
+  font-size: 1rem;
+  margin-top: 15px;
+  font-weight: 100;
+}
+
+
+
+.Ctn4b h3{
+  font-size: 1.3rem;
+
+}
+
+
+.Ctn4a,
+.Ctn4b{
+  display: flex;
+  margin: auto 20px;
+
+}
+
+.Ctn4a img{
+  margin: auto 20px;
+  width: 200px;
+  height: 230px;
+}
+.Ctn4b img{
+  margin: auto 20px;
+  width: 200px;
+  height: 230px;
+}
+
+.Ctn5-content img{
+  width: 350px;
+  max-width: 350px;
+  height: 200px;
+}
+
+.Ctn5-content{
+  display: flex;
+  position: relative; 
+}
+
+.Ctn5-content div{
+  margin: 0 20px;
+}
+
+.Ctn5-content a{
+  text-decoration: none;
+ margin-bottom: 10px; 
+  color: var(--pry-color);
+}
+
+.material-symbols-outlined{
+  color: var(--pry-color);
+  position: absolute;
+  bottom: 1px;
+}
+
+.Ctn5{
+  display: block;
+  margin: 50px 140px;
+  background-image: url('https://flourmills.s3.eu-central-1.amazonaws.com/images/news-bg.jpg');
+}
+
+
+.Ctn5-content h2{
+  font-size: 3rem;
+  color: var(--pry-color);
+  margin: 0;
+  padding: 0;
+ 
+}
+
+
+.Ctn6{
+  display: block;
+  margin: 0 140px;
+ 
+}
+
+.Ctn6-content{
+  display: flex;
+}
+
+.Ctn6-content img{
+  width: 700px;
+  height: 300px;
+}
+
+.green{
+  background-color: var(--pry-color);
+  width: 150px;
+  height: 300px;
+}
+
+.Ctn6-content2{
+  background-color: #000000bd;
+  color: #fff;
+width: 900px;
+text-align: left;
+}
+
+.Ctn6-content2 h2{
+font-size: 1.8rem;
+margin: 50px 0 0 90px;
+
+}
+
+.Ctn6-content2 p{
+  font-size: 1rem;
+  margin-left: 90px;
+  margin-bottom: 40px;
+  }
+
+  .Ctn6-content2 a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid white;
+    padding: 10px;
+    margin-left: 90px;
+  }
+
+  .selection{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .selection span{
+    font-size: 2.5rem;
+  }
+
+  .line2{
+    margin-top: 25px;
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+  }
+
+  .images{
+    margin: 50px auto;
+    display: block;
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+  }
+
+
+  .images img{
+    width: 100px;
+    height: 50px;
+  }
+
+  .footer{
+    display: flex;
+    background-image: url('https://flourmills.s3.eu-central-1.amazonaws.com/images/globe-img.png');
+  background-repeat: no-repeat;
+  background-position: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 80%;
+   
+  }
+
+  .footer-img{
+    display: block;
+    margin: 50px auto;
+    width: 100px;
+    max-width: 100px;
+  }
+
+  .footer-img img{
+    width: 80px;
+    max-width: 100px;
+  }
+
+  .line5{
+    width: 200px;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 10px;
+  }
+
+  .line6{
+    width: 200px;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 10px;
+  }
+
+  .line7{
+    width: 200px;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 10px;
+  }
+
+  .line8{
+    width: 200px;
+    height: 2px;
+    margin-bottom: 10px;
+
+    background-color: #000;
+  }
+
+
+  .line9{
+    width: 200px;
+    height: 2px;
+    margin-top: 0;
+    background-color: #000;
+  }
+
+.divs{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.divs ul{
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+.divs li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+  .div1 a{
+    text-decoration: none;
+    color: #000;
+    }
+    
+    .div2 li{
+      text-align: center;
+    }
+
+    .div3 li{
+      text-align: center;
+    }
+
+    .div4 li{
+      text-align: right;
+    }
+  
+  .div2 a{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    }
+      
+.div3 a{
+    text-decoration: none;
+    color: #000;
+      }
+      
+.div4 a{
+text-decoration: none;
+color: #000;
+
+  }
+
+  .div1 h5{
+    margin-bottom: 10px;
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .div2 h5{
+    margin-bottom: 10px;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .div3 h5{
+    margin-bottom: 14px;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+
+.div4 h5{
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+  .reach-us h3{
+color: var(--pry-color);
+  }
+
+  .reach-us ul{
+    margin: 0;
+    padding: 0;
+  }
+
+  .corporate{
+    text-align: center;
+    margin-left: 150px;
+  }
+
+  .corporate h3{
+color: var(--pry-color);
+  }
+
+  .newsletter h3{
+    text-align: right;
+    color: var(--pry-color);
+  }
+
+  input[type="email"]{
+    width: 200px;
+    height: 40px;
+    border: 3px solid #6c707a;
+    outline: none;
+    margin-right: 0;
+  }
+  
+  input[type="email"]::placeholder{
+    font-size: 0.9rem;
+    color: #6c707a;
+  }
+
+.newsletter button{
+  padding: 12px 18px;
+  background-color: #6c707a;
+  color: #fff;
+  border: none;
+  margin-left: 0;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
+  text-align-last: center;
+  margin: 100px auto;
+  width: 80%;
+  max-width: 80%;
+}
+
+.last-div{
+  display: flex;
+  background-color: #6c707a;
+  justify-content: center;
+ padding: 10px ;
+}
+
+.last-div small{
+  margin: 0 10px;
+  color: #fff;
+}
+
+.last-div a {
+  color: white;
+  text-decoration: none;
+}
+
+.last-div a[target="_blank"]{
+  border-right: 2px solid white;
+  margin: 0 10px;
+  padding-right: 8px;
+}
+
+@media (max-width: 768px) {
+.header-container{
+  width: 100%;
+}
+
+.search-bar{
+  display: none;
+}
+
+.header-container img{
+  display: none;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width: 428px){
+
+.Ctn2b{
+  display: none;
+}
+
+
+  .header-container{
+    
+    width: 100%;
+    height: auto;
+  
+  }
+
+.header-img img{
+  width: 70px;
+  margin-left: 10px;
+display: block;
+margin-bottom: 10px;
+}
+
+.bars,
+.nav-bar{
+  display: none;
+}
+
+.menu{
+  
+  display: block;
+  margin-left: auto;
+}
+
+.fa-bars{
+ margin-right: 10px;
+ font-size: 30px;
+ position: absolute;
+ right: 10px;
+ top: 18px; 
+}
+
+
+ 
+  /* background-color: var(--sec-color); */
+
+
+
+.Ctn2{
+  display: flex;
+  height: 500px;
+width: 100%;
+}
+
+.Ctn2a{
+  display: block;
+  margin-left: 30px;
+}
+
+.Ctn2a h2{
+  font-size: 2.3rem;
+  white-space: nowrap;
+  
+}
+
+.Ctn3{
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.Ctn3 div{
+  margin: 10px auto;
+}
+
+.cont-4{
+  width: 100%;
+ background-size: cover;
+ margin: 0 auto;
+}
+
+.Ctn4{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.Ctn4a{
+  display: block;
+  margin: 30px auto;
+}
+
+.Ctn4a h3{
+  /* font-size: 1rem; */
+  /* margin-left: 30px; */
+}
+
+.Ctn4b h3{
+  /* font-size: 1rem; */
+}
+
+
+.Ctn4a div{
+  margin: 0 auto;
+}
+
+.Ctn4b div{
+  margin: 0 auto;
+}
+
+.Ctn4a img{
+  width: 250px;
+  height: 230px;
+}
+
+.Ctn4b img{
+  width: 250px;
+  height: 230px;
+}
+
+.Ctn4b{
+  display: block;
+  margin: 0 auto;
+}
+
+.Ctn5{
+  width: 100%;
+  margin: 20px auto;
+}
+
+.Ctn5-content{
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.material-symbols-outlined{
+  left: 90px;
+  bottom: 7px;
+}
+
+.Ctn5-content a{
+  display: block;
+  margin-top: 0;
+}
+
+
+.Ctn6{
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+.Ctn6-content{
+  flex-wrap: wrap;
+  margin: 0 auto;
+  
+}
+.Ctn6-content2 {
+  width: 900px;
+  height: 350px;
+}
+
+.Ctn6-content2 h2{
+  margin: 15px 20px;
+  font-size: 1.5rem;
+}
+
+.Ctn6-content2 p{
+  margin: 0 20px;
+
+}
+
+.Ctn6-content img{
+  width: 100%;
+  height: auto;
+}
+
+.green{
+  display: none;
+}
+
+.Ctn6-content2 a{
+  margin-left: 20px;
+  margin-top: 20px;
+display: flex;
+height: auto;
+
+width: fit-content;
+}
+
+.selection{
+  width: 100%;
+}
+
+.selection span{
+  font-size: 1rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.line2{
+  width: 100%;
+  
+}
+
+.images{
+  width: 100%;
+
+}
+.images img{
+ width: 70px;
+}
+
+.footer{
+  width: 100%;
+  flex-direction: column-reverse;
+  justify-content: left;
+  background-size: cover;
+}
+  
+.reach-us{
+  width: 100%;
+}
+
+.corporate{
+
+  display: block;
+  margin-left: 0;
+}
+
+.corporate h3{
+  text-align: left;
+}
+
+.newsletter h3{
+  text-align: left;
+}
+
+input[type="email"]{
+  width: 150px;
+}
+
+.divs{
+  width: 100%;
+flex-direction: column;
+display: block;
+}
+
+.div1 {
+text-align: center;
+margin: 0 auto;
+}
+
+.div1 h5{
+  text-align: center;
+}
+
+
+.div3{
+  display: block;
+  margin-left: 0;
+  }
+.div4 li{
+  text-align: center;
+}
+
+  .div4 h5 {
+  text-align: center;
+    }
+
+ .line5{
+  width: 100%;
+  display: block;
+ 
+}
+
+
+.line6{
+  width: 100%;
+  display: block;
+ 
+}
+
+.line7{
+  width: 100%;
+  display: block;
+ 
+}
+
+.line8{
+  width: 100%;
+  display: block;
+ 
+}
+
+
+
+
+
+}
+
+
+
+  

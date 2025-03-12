@@ -166,10 +166,11 @@ margin: 10px 30px;
 .Ctn2b{
   display: flex;
   transform: rotate(-90deg);
-  
- margin-top: 300px;
-
+ width: 500px;
+ margin-top: 230px;
  height: 50px;
+ position: absolute;
+left: 1030px;
 }
 
 .Ctn2b span{
@@ -224,7 +225,9 @@ margin: 10px 30px;
 }
 
 .cont-4 h4{
-  font-size: 0.9rem;
+  font-size: 1.3rem;
+  padding-top: 20px;
+  text-align: center;
   
   margin: 20px 0 0 20px;
 }
@@ -288,7 +291,7 @@ justify-content: flex-start;
 
 .Ctn5-content img{
   width: 350px;
-  max-width: 350px;
+  /* max-width: 350px; */
   height: 200px;
 }
 
@@ -314,6 +317,7 @@ justify-content: flex-start;
 }
 
 .Ctn5{
+  
   display: block;
   margin: 50px 140px;
   background-image: url('https://flourmills.s3.eu-central-1.amazonaws.com/images/news-bg.jpg');
@@ -626,31 +630,51 @@ color: var(--pry-color);
   padding-right: 8px;
 }
 
-@media (max-width: 768px) {
-.header-container{
-  width: 100%;
+/* @media (min-width: 501px) and (max-width: 900px){
+
+  .header-container{
+    
+    width: 100%;
+    height: auto;
+  
+  }
+
+.header-img img{
+  width: 70px;
+  margin-left: 10px;
+display: block;
+margin-bottom: 10px;
 }
 
-.search-bar{
+.bars,
+.nav-bar{
   display: none;
 }
 
-.header-container img{
-  display: none;
+.menu{
+  
+  display: block;
+  margin-left: auto;
+}
+
+.fa-bars{
+ margin-right: 10px;
+ font-size: 30px;
+ position: absolute;
+ right: 10px;
+ top: 28px; 
 }
 
 
+} */
 
 
 
 
 
 
-}
 
-
-
-@media (max-width: 428px){
+@media (max-width: 900px){
 
 .Ctn2b{
   display: none;
@@ -687,7 +711,7 @@ margin-bottom: 10px;
  font-size: 30px;
  position: absolute;
  right: 10px;
- top: 18px; 
+ top: 28px; 
 }
 
 
@@ -783,6 +807,11 @@ width: 100%;
   margin: 0 auto;
 }
 
+.Ctn5-content img{
+  width: 100%;
+  display: block;
+}
+
 .material-symbols-outlined{
   left: 90px;
   bottom: 7px;
@@ -807,8 +836,9 @@ width: 100%;
   
 }
 .Ctn6-content2 {
-  width: 900px;
+  /* width: 900px; */
   height: 350px;
+  max-height: 400px;
 }
 
 .Ctn6-content2 h2{
@@ -823,7 +853,7 @@ width: 100%;
 
 .Ctn6-content img{
   width: 100%;
-  height: auto;
+  
 }
 
 .green{
@@ -855,11 +885,15 @@ width: fit-content;
 }
 
 .images{
-  width: 100%;
-
+  /* max-width: 60px; */
+  display: flex;
+justify-content: center;  
 }
 .images img{
- width: 70px;
+  max-width: 80px;
+ width: 50px;
+ display: block;
+ margin: auto auto;
 }
 
 .footer{
@@ -950,6 +984,11 @@ margin: 0 auto;
 
 }
 
-
+@media (min-width: 400px) and (max-width: 500px){
+  .selection span{
+    width: 100%;
+    margin-top: 10px;
+  }
+}
 
   

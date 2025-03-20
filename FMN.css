@@ -671,7 +671,145 @@ margin-bottom: 10px;
 
 
 
+@media (min-width: 1351px) and (max-width: 1400px){
 
+
+
+
+.Ctn3{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.Ctn3 div{
+margin-top: 20px;
+}
+
+.cont-4{
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+}
+
+.Ctn5{
+  width: 100%;
+  margin: 10px auto;
+}
+
+.Ctn6-content2{
+  width: 500px;
+}
+
+.Ctn6-content img{
+  width: 300px;
+  flex-grow: 1;
+}
+
+
+
+ .Ctn6{
+  width: 100%;
+  margin: auto auto;
+}
+
+/*
+.Ctn6-content img{
+  width: 300px;
+} */
+
+.images{
+  display: flex;
+  justify-content: center;
+}
+
+
+.footer-img img{
+  display: flex;
+  justify-content: center;
+}
+
+
+}
+
+@media (min-width: 1100px) and (max-width: 1400px) {
+
+  .Ctn4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+@media (min-width: 901px) and (max-width: 1350px){
+
+  .Ctn2b{
+    display: none;
+    /* left: 650px; */
+  }
+
+  .Ctn3{
+    flex-wrap: wrap;
+  }
+
+  .Ctn3 div{
+    margin-top: 10px;
+  }
+
+  .cont-4{
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .Ctn5{
+    width: 100%;
+    margin: 10px auto;
+  }
+  
+  .Ctn6-content2{
+    width: 500px;
+  }
+  
+  .Ctn6-content img{
+    width: 300px;
+    flex-grow: 1;
+  }
+  
+  
+  
+   .Ctn6{
+    width: 100%;
+    margin: auto auto;
+  }
+  .images{
+    display: flex;
+    justify-content: center;
+  }
+  
+.footer{
+  width: 100%;
+}
+
+.reach-us{
+  width: 200px;
+}
+
+.corporate{
+  margin: auto;
+}
+
+input[type="email"]{
+  display: flex;
+}
+
+  .footer-img img{
+    display: flex;
+    justify-content: center;
+  }
+
+}
 
 
 @media (max-width: 900px){
@@ -984,11 +1122,47 @@ margin: 0 auto;
 
 }
 
-@media (min-width: 400px) and (max-width: 500px){
+@media (min-width: 500px) and (max-width: 900px){
+
+  .Ctn3 div{
+    margin: 10px 10px;
+  }
+
+  .images img{
+  width: 90px;
+}
+
+.selection span{
+  width: 80%;
+  margin-top: 15px;
+}
+
+
+}
+
+
+@media (min-width: 400px) and (max-width: 900px) {
   .selection span{
     width: 100%;
     margin-top: 10px;
   }
+
+
+}
+
+@media (min-width: 350px) and (max-width: 900px){
+    
+.Ctn6-content2{
+  text-align: center;
+  width: 100%;
+  max-height: 280px;
+}
+
+.Ctn6-content2 a{
+  display: block;
+  margin: 30px auto;
+}
+
 }
 
   
